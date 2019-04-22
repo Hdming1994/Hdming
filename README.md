@@ -1,5 +1,7 @@
-# ![](images/icon.png) Hdming's Blogs. 
+# Hdming's Blogs. 
 
-## This is my Blogs.
+## 这是我的博客，闲来无事写点东西。
   
-##[目录](catalogue.md)
+## [目录](catalogue.md)
+
+
