@@ -2,5 +2,5 @@
 ## 这是我的博客，随便写点东西。
   
 ## [目录](catalogue.md)
-
+![](images/water.jpg)
 
