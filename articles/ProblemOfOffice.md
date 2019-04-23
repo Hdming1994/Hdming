@@ -11,7 +11,7 @@
 
 参考网站：[MathType相关文档](https://docs.wiris.com/en/mathtype/mathtype_desktop/support_notices/tn73)
 
-
+---
 ### 问题2：文档分栏最后一页多出空白页
 
 具体问题表现为某些Word文档分栏后最后一页多出一页空白页，直接删除空白页会使得前面的分栏被取消，出现排版问题。
