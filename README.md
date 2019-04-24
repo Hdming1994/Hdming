@@ -1,6 +1,5 @@
-
-## 这是我的博客，随便写点东西。:octocat:
+<!-- 这是主页文件 -->
+## 这是我的博客，随便写点东西:laughing:
   
 ## [目录](catalogue.md)
 ![](images/Sea.webp)
-
