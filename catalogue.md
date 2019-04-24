@@ -2,3 +2,4 @@
 
 ### [Windows设置的一些小技巧](articles/WinSettingSkills.md)
 ### [Office的一些小问题](articles/ProblemOfOffice.md)
+### [Windows 10快捷键](articles/Win10ShortcutKey.md)
