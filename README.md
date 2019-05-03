@@ -4,5 +4,5 @@
 <audio autoplay="autoplay" loop="loop" height="100" width="100">
   <source src="Music.mp3" type="audio/mp3" />
   <embed height="100" width="100" src="Music.mp3" />
-</audio>
+</audio>  
 ![](images/Sea.webp)
