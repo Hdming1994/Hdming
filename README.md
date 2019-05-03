@@ -1,5 +1,5 @@
 <!-- 这是主页文件 -->
-## [目录](catalogue.md) 　　　这是我的博客，随便写点东西。
+## [目录](catalogue.md)　这是我的博客，随便写点东西。
 
 <audio autoplay="autoplay" loop="loop" height="100" width="100">
   <source src="Music.mp3" type="audio/mp3" />
