@@ -1,6 +1,6 @@
 ## 目  录
 
-## <p><font size="6"><strong>目  录</strong></font></p>
+## <font size="6"><strong>目  录</strong></font>
 
 ### [Windows设置的一些小技巧](articles/WinSettingSkills.md)
 ### [Windows 10快捷键](articles/Win10ShortcutKey.md)
