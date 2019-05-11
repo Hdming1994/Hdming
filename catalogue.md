@@ -3,7 +3,9 @@
 
 #### [Windows设置的一些小技巧](articles/WinSettingSkills.md)
 #### [Windows 10快捷键](articles/Win10ShortcutKey.md)
-#### [Office的一些小问题](articles/ProblemOfOffice.md)
+#### [Office的一些小问题](articles/ProblemOfOffice.md)  
+#### [建立一个简单的静态网站](articles/FoundWebsite.md)  
+  
 -------
 <font size="5"><strong>Study Time</strong></font>
 
