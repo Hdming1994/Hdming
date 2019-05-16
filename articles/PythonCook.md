@@ -6,5 +6,6 @@
     `C:\ProgramData\Anaconda3`  
     `C:\ProgramData\Anaconda3\Scripts`  
     `C:\ProgramData\Anaconda3\Library\bin`  
-  若连续添加，需以分号间隔
+  若连续添加，需以分号间隔  
+
 ### 2.程序打包
