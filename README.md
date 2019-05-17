@@ -1,4 +1,4 @@
-<link rel="shortcut icon" href="images/hdming.ico" />
+<link rel="shortcut icon" type="image/png" href="images/favicon.png">
 
 <!-- 这是主页文件 -->
 ## [目录](catalogue.md)　这是我的博客，随便写点东西。
