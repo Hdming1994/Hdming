@@ -36,3 +36,6 @@
 ```
 + 使用CMD进入前面的目录，执行setup.exe /download configuration.xml
 + 执行setup.exe /configure configuration.xml
+参考网页:  
+[豆瓣：如何让即点即用的Office365和Visio2016共存](https://www.douban.com/note/698508220/)  
+[MS：使用Office部署工具安装Project 2016和Visio 2016的批量许可版本](https://docs.microsoft.com/zh-cn/DeployOffice/use-the-office-deployment-tool-to-install-volume-licensed-editions-of-visio-2016?redirectSourcePath=%252fzh-cn%252farticle%252f%25e4%25bd%25bf%25e7%2594%25a8-Office-%25e9%2583%25a8%25e7%25bd%25b2%25e5%25b7%25a5%25e5%2585%25b7%25e5%25ae%2589%25e8%25a3%2585-Visio-2016-%25e5%2592%258c-Project-2016-%25e7%259a%2584%25e6%2589%25b9%25e9%2587%258f%25e8%25ae%25b8%25e5%258f%25af%25e7%2589%2588%25e6%259c%25ac-82691bd7-a3d5-47ca-8d8a-0ee43ec2c01f)
