@@ -1,3 +1,5 @@
+<link rel="shortcut icon" href="images/hdming.ico" />
+
 <!-- 这是主页文件 -->
 ## [目录](catalogue.md)　这是我的博客，随便写点东西。
 
