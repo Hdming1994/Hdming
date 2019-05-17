@@ -18,4 +18,21 @@
 具体解决方法如下：`（以Office2019为例）`
 + 先在文字的最后末尾处添加分页、分节符，一直敲回车直到敲进下一页还多出几行，选中下一页多出来的几行按DEL.删除。
   
-这样就删除了最后的空白页，而且排版不会出问题。
+这样就删除了最后的空白页，而且排版不会出问题。  
+
+### 问题3：Office365与Visio的共存
+即点即用版的Office365与VOL版的Visio无法共存，解决方法如下：
++ 下载最新版[Office部署工具](https://www.microsoft.com/en-us/download/details.aspx?id=49117)
++ 运行释放office部署工具，进入释放文件的目录，新建文件`configuration.xml`
++ 编辑`configuration.xml`：  
+```
+  <Configuration>
+    <Add OfficeClientEdition="64" >
+      <Product ID="VisioProXVolume" PIDKEY="69WXN-MBYV6-22PQG-3WGHK-RM6XC">
+        <Language ID="zh-cn" />
+      </Product>
+    </Add>  
+  </Configuration>
+```
++ 使用CMD进入前面的目录，执行setup.exe /download configuration.xml
++ 执行setup.exe /configure configuration.xml
