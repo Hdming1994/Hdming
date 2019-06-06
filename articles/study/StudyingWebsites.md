@@ -19,4 +19,6 @@
 + [sci-hub.se(可能需要翻墙)](https://sci-hub.se/)
 + [SciHub Desktop(百度网盘)](https://pan.baidu.com/s/1kVb2pJh)
 + [SciHub Desktop-科研利器(知乎)](https://zhuanlan.zhihu.com/p/31809890)
+  
+### EndNote X9.1
 + [EndNote X9.1中科大批量版(城通网盘)](https://carrot.ctfile.com/fs/11269771-350472090)
