@@ -1,4 +1,4 @@
-[返回目录](../catalogue.md)
+[返回目录](../../catalogue.md)
 ## PCA主成分变换
 ### PCA和K-L变换
 ### SVD
