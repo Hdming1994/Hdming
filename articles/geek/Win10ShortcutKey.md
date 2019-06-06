@@ -1,4 +1,4 @@
-[返回目录](../catalogue.md)
+[返回目录](../../catalogue.md)
 ## Windows 10快捷键
 Cortana 快捷键
 

@@ -1,4 +1,4 @@
-[返回目录](../catalogue.md)
+[返回目录](../../catalogue.md)
 ## Windows安装
 
 ### Windows 10安装

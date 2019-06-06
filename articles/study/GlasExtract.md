@@ -1,4 +1,4 @@
-[返回目录](../catalogue.md)
+[返回目录](../../catalogue.md)
 ## ICESat/GLAS 高程数据的下载和提取
 ### ICESat/Glas 简介
 ICESat/Glas卫星传感器是美国冰雪中心发射和运营的。

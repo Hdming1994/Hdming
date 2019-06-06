@@ -1,4 +1,4 @@
-[返回目录](../catalogue.md)
+[返回目录](../../catalogue.md)
 ## 如何建一个网站
 ### 1.Github Page建站
 ### 2.VPS建站

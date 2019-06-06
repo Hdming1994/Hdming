@@ -1,4 +1,4 @@
-[返回目录](../catalogue.md)
+[返回目录](../../catalogue.md)
 ## Python炼丹大法
 ### 1.安装Anaconda并使用VS Code  
 + 添加环境变量：  
