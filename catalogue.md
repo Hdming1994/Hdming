@@ -7,6 +7,7 @@
 #### [Office的一些小问题](articles/geek/ProblemOfOffice.md)  
 #### [建立一个简单的静态网站](articles/geek/FoundWebsite.md)  
 #### [Python炼丹大法](articles/geek/PythonCook.md)
+#### [如何高速下载百度网盘文件](articles/geek/BaiduPanDownload.md)
   
 -------
 <font size="5"><strong>Study Time</strong></font>
