@@ -35,8 +35,22 @@
     </Add>  
   </Configuration>
 ```
-+ 使用`CMD管理员身份`进入前面的目录，执行`setup.exe /download configuration.xml`
++ 使用`CMD管理员身份`进入前面的目录
++ 执行`setup.exe /download configuration.xml`
 + 执行`setup.exe /configure configuration.xml`  
 + 参考网页:  
 1.[豆瓣：如何让即点即用的Office365和Visio2016共存](https://www.douban.com/note/698508220/)  
 2.[MS：使用Office部署工具安装Project 2016和Visio 2016的批量许可版本](https://docs.microsoft.com/zh-cn/DeployOffice/use-the-office-deployment-tool-to-install-volume-licensed-editions-of-visio-2016?redirectSourcePath=%252fzh-cn%252farticle%252f%25e4%25bd%25bf%25e7%2594%25a8-Office-%25e9%2583%25a8%25e7%25bd%25b2%25e5%25b7%25a5%25e5%2585%25b7%25e5%25ae%2589%25e8%25a3%2585-Visio-2016-%25e5%2592%258c-Project-2016-%25e7%259a%2584%25e6%2589%25b9%25e9%2587%258f%25e8%25ae%25b8%25e5%258f%25af%25e7%2589%2588%25e6%259c%25ac-82691bd7-a3d5-47ca-8d8a-0ee43ec2c01f)
+
+### 同时部署安装Office2019、Project、Visio
+使用微软ODT（Office部署工具）和OCT（Office定制工具）可以一次性部署和激活Office2019、Project、Visio，非常方便。
++ 下载最新版[ODT工具](https://www.microsoft.com/en-us/download/details.aspx?id=49117)
++ 运行释放Office部署工具到指定目录
++ 使用在线的[OCT工具](https://config.office.com/deploymentsettings)选择需要的选项，导出成一个`configuration.xml`文件，保存到office部署工具的安装目录
++ 使用`CMD管理员身份`进入前面的目录
++ 执行`setup.exe /download configuration.xml`
++ 执行`setup.exe /configure configuration.xml`  
++ 参考网页：
+  1.[cnBeta:Office2019部署安装教程](https://www.cnbeta.com/articles/tech/787967.htm)
+  2.[BiliBili:Office 365 ProPlus部署教程](https://www.bilibili.com/read/cv822998/)
+Tips:OCT在线配置可以配置Office365、2016及2019版的Office、Project、Visio等软件，并且Office365和2019版Office等软件*只能安装在Windows10操作系统上*，2016版没有限制。
