@@ -35,7 +35,7 @@
     </Add>  
   </Configuration>
 ```
-+ 使用`CMD管理员身份`进入前面的目录
++ 使用**CMD管理员身份**进入前面的目录
 + 执行`setup.exe /download configuration.xml`
 + 执行`setup.exe /configure configuration.xml`  
 + 参考网页:  
@@ -47,10 +47,10 @@
 + 下载最新版[ODT工具](https://www.microsoft.com/en-us/download/details.aspx?id=49117)
 + 运行释放Office部署工具到指定目录
 + 使用在线的[OCT工具](https://config.office.com/deploymentsettings)选择需要的选项，导出成一个`configuration.xml`文件，保存到office部署工具的安装目录
-+ 使用`CMD管理员身份`进入前面的目录
++ 使用**CMD管理员身份**进入前面的目录
 + 执行`setup.exe /download configuration.xml`
 + 执行`setup.exe /configure configuration.xml`  
-+ 参考网页：
-  1.[cnBeta:Office2019部署安装教程](https://www.cnbeta.com/articles/tech/787967.htm)
-  2.[BiliBili:Office 365 ProPlus部署教程](https://www.bilibili.com/read/cv822998/)
-Tips:OCT在线配置可以配置Office365、2016及2019版的Office、Project、Visio等软件，并且Office365和2019版Office等软件*只能安装在Windows10操作系统上*，2016版没有限制。
++ 参考网页：  
+  1.[cnBeta:Office2019部署安装教程](https://www.cnbeta.com/articles/tech/787967.htm)  
+  2.[BiliBili:Office 365 ProPlus部署教程](https://www.bilibili.com/read/cv822998/)  
++ Tips:OCT在线配置可以配置Office365、2016及2019版的Office、Project、Visio等软件，并且Office365和2019版Office等软件**只能安装在Windows10操作系统上**，2016版没有限制。
