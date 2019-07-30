@@ -1,0 +1,81 @@
+/* CSS Document */
+body {font-size: 12px;margin: 0px;padding: 0px;	line-height: 22px;background-image: url(ch_img_04.gif);background-repeat: repeat-x;background-position: top;}
+/* 链接颜色 */
+a:link {color: #000000; text-decoration:none;}
+a:visited {color: #000000;text-decoration:none;}
+a:hover {color: #FF6600;text-decoration:none;}
+img {border:none;}
+
+.h1,.h1 a:link,.h1 a:visited{font-size:12px; color:#999}
+.h1 a:hover{font-size:12px; color:#0d91df}
+.width1000 { width:1000px; margin:0 auto; padding:8px 0; }
+
+/*container_left*/
+.left_newsbg{ background-image:url(news_bg.jpg); width:744px; height:257px; background-repeat:no-repeat; }
+.table{border-left:1px #dedde5  solid;}
+.table .a1{ border-right:1px #dedde5  solid; background-image:url(news_01.jpg); background-repeat:repeat-x;font-weight:bold; color:#a90909; font-size:14px; width:80px;}
+.table .a2{ border-right:1px #dedde5  solid; font-size:14px; color:#333; width:80px;}
+.img{ margin:5px;}
+.lxd td{line-height:28px;border-bottom-width: 1px;border-bottom-style: dashed;border-bottom-color: #cbcbcb;}
+.lxd .ind2,.lxd .ind2 a:link,.lxd .ind2 a:visited {color: #1d1d1d;text-decoration:none;	font-size: 14px;}
+.lxd .ind2 a:hover {color: #FF6600; font-size: 14px;}
+.lxd1{ border-bottom:1px #dbdbdb solid; border-left:1px #dbdbdb solid; border-right: 1px #dbdbdb solid;}
+.lxd1 .td1{ border-right:1px #d8d8d8 solid;}
+.lxd1 .td2{ border-left:1px #d8d8d8 solid;}
+.lxd1 .te1{ background-color:#fff; font-size:14px; font-weight:bold;border-right:1px #d8d8d8 solid; }
+.lxd1 .te2{ font-size:14px; font-weight:bold;border-right:1px #d8d8d8 solid; }
+.te3{ font-size:14px; font-weight:bold;}
+.link_xl{ border:1px #c7c7c7  solid;}
+.gxinp {width: 150px;}
+
+/*container_right*/
+.right_kxl{ background-color:#f6fdff; border-bottom:1px #dee1e3 solid; border-left:1px #dee1e3 solid; border-right: 1px #dee1e3 solid;}
+.right_kxl td{ height:26px;}
+
+/*列表页*/
+.left_titlebg{background-image:url(na_03.jpg);background-position:bottom;	background-repeat:no-repeat;width:230px;height:31px;font-size:18px; color:#fff;}
+.left_sidebar{ border-left:1px #bdd2e3 solid; border-right:1px #bdd2e3 solid; border-bottom:1px #bdd2e3 solid; background-image:url(na_25.jpg); background-position:bottom; background-repeat:no-repeat; background-color:#ecf4ff;padding-bottom:390px;}
+.left_td1 {background-image:url(na_15.jpg);background-repeat:no-repeat;height:28px;font-size:12px;	color:#1d498d;line-height:28px;
+	margin-bottom:5px;text-align:left;background-position: center; }
+.left_td1 a:link,.left_td1 a:visited{ font-size:12px; color:#1d498d; text-decoration:none;}
+.left_td1 a {display:block;padding-left:45px; text-decoration:none;}
+.left_td1 a:hover{ background-image: url(na_22.jpg); background-repeat:no-repeat;  height:28px; font-size:12px;  line-height:28px; margin-bottom:5px; text-align:left; background-position: center; color: #FF6600; display:block; text-decoration:none;}
+.right_sl{ border:1px #bdd2e3 solid;}
+
+.right_slxl{ border:1px #dad7d7 solid; padding:3px;}
+.right_lr{ background-image:url(xl_03.jpg); background-position:top left; background-repeat:no-repeat; }
+
+/**/
+.x {font-family: "黑体";font-size: 18px;color: #000000;}
+.xl_x {	border: 1px solid #d1d0d0;background-color: #f7f7f7;}
+.xtext {font-size: 14px;color: #111010;}
+
+/**/
+.lxzf_z1{font-size:12px;color:#333333;background-image: url(zwgk_lxzf_16.jpg);background-repeat:no-repeat;width:207px;height:33px;text-align: center;
+	display: block;	float: left;line-height: 33px;margin-top: 10px;	margin-right: 25px; }
+.lxzf_z1 a:link,.lzxf_z1 a:visited{	font-size:12px;	color:#333333;	}
+.lxzf_z1 a:hover{font-size:12px;color:#017dce;	background-image:url(zwgk_lxzf_13.jpg);background-repeat:no-repeat;width:207px;height:33px;display: block;text-align: center;line-height: 33px;	float: left;}
+
+.z1{ font-size:16px; font-weight:bold; color:#0069aa; }
+
+/*图片概览*/
+.imglist { padding:10px 0;}
+.imglist dl{float:left; width:240px; margin-right:8px;}
+.imglist dl img{border:#ccc solid 1px; padding:3px;}
+.imglist div {border-bottom-width: 1px;border-bottom-style: dashed;border-bottom-color: #cbcbcb;clear:both;margin-bottom:20px;}
+
+/*领导页面*/
+.info {
+    border: 1px solid #D0C7C8;
+    clear: both;
+}
+.titlebar {
+    background: url(titleico.gif) #f9f6f5 left no-repeat;
+    clear: both;
+    height: 25px;
+    text-indent: 35px;
+	font-size:15px;
+	font-weight:bold;
+	color:#7F6F6F;
+}
+.lby_zhzz_list { padding:10px;}
