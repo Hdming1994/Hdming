@@ -6,3 +6,5 @@ Windows 10默认设置打开资源管理器会进入`快速访问`，可以从`�
 打开注册表，找到：
 `计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations`在右侧新建“字符串值”，将新建值名称改为要关联的文件扩展名，比如“.jpg”，数值数据填写为“PhotoViewer.FileAssoc.Tiff”。其他图片格式以此类推。  
 另外HoneyView也是一款非常不错的看图软件，只需在设置中设置为滚轮放大缩小即可轻松享用。  
+### 右键菜单添加`Open CMD Here`
+### 未完待续。。。 
