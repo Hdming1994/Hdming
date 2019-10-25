@@ -2,7 +2,7 @@
 <font size="5"><strong>Geek Time</strong></font>
 
 #### [Windows安装](articles/geek/WindowsInstalling.md)
-#### [Windows设置的一些小技巧](articles/geek/WinSettingSkills.md)
+#### [Windows的一些小问题](articles/geek/WinSettingSkills.md)
 #### [Windows 10快捷键](articles/geek/Win10ShortcutKey.md)
 #### [Office的一些小问题](articles/geek/ProblemOfOffice.md)  
 #### [建立一个简单的静态网站](articles/geek/FoundWebsite.md)  

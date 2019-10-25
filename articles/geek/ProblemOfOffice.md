@@ -58,3 +58,15 @@
   1.[cnBeta:Office2019部署安装教程](https://www.cnbeta.com/articles/tech/787967.htm)  
   2.[BiliBili:Office 365 ProPlus部署教程](https://www.bilibili.com/read/cv822998/)  
 + Tips:OCT在线配置可以配置Office365、2016及2019版的Office、Project、Visio等软件，并且Office365和2019版Office等软件**只能安装在Windows10操作系统上**，2016版没有限制。
+  
+### PowerPoint导出PPT的分辨率设置为300DPI
+默认情况下，要另存为图片的PowerPoint幻灯片的导出分辨率为每英寸96点（dpi）。要更改导出分辨率，请按照下列步骤操作：
++ 打开注册表(Regedit)  
++ 根据使用的PowerPoint版本，找到以下注册表子项之一：  
+`HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\PowerPoint\Options`  
+(对于2019、2016和365而言是16.0，2013对应15.0，2010对应14.0，2007对应13.0)  
++ 右键单击Options文件夹，新建一个`DWORD值`,并命名为`ExportBitmapResolution`  
++ 右键修改`ExportBitmapResolution`，选择十进制输入`300`,确定即可。
++ 注意：DPI值可以大于300，但不要超过1000，且2010及早期版本只支持到307DPI。
++ 参考：[How to change the export resolution of a PowerPoint slide](https://docs.microsoft.com/en-us/office/troubleshoot/powerpoint/change-export-slide-resolution)
+
