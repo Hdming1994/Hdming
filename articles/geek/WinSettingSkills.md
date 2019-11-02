@@ -30,5 +30,57 @@ Windows 10默认设置打开资源管理器会进入`快速访问`，可以从`�
 >如果以上方法不能解决，才考虑重置或重新安装系统。
 
 ### 4.右键菜单添加`Open CMD Here`
++ 新建一个txt文档，输入如下内容:  
+>Windows Registry Editor Version 5.00
+>
+>[HKEY_CLASSES_ROOT\Directory\shell\OpenCmdHere]  
+>@="在此处打开命令窗口"
+>"Icon"="cmd.exe"
+>
+>[HKEY_CLASSES_ROOT\Directory\shell\OpenCmdHere\command]  
+>@="cmd.exe /s /k pushd "%V""  
+>
+>[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenCmdHere]  
+>@="在此处打开命令窗口"  
+>"Icon"="cmd.exe"  
+>
+>[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenCmdHere\command]  
+>@="cmd.exe /s /k pushd \"%V\""  
+>
+>[HKEY_CLASSES_ROOT\Drive\shell\OpenCmdHere]  
+>@="在此处打开命令窗口"  
+>"Icon"="cmd.exe"  
+>
+>[HKEY_CLASSES_ROOT\Drive\shell\OpenCmdHere\command]  
+>@="cmd.exe /s /k pushd \"%V\""  
+>
+>[HKEY_CLASSES_ROOT\LibraryFolder\background\shell\OpenCmdHere]  
+>@="在此处打开命令窗口"  
+>"Icon"="cmd.exe"  
+>
+>[HKEY_CLASSES_ROOT\LibraryFolder\background\shell\OpenCmdHere\command]  
+>@="cmd.exe /s /k pushd \"%V\""
++ 将这个txt文档重命名为`.reg`格式，然后运行这个`.reg`文件。
+
+### 5.删除资源管理器的左边栏项目
+资源管理器左边栏中有很多无用的项目，如3D对象、视频等，删除步骤如下：  
++ 打开注册表，可以使用`Win+R`快捷键，然后输入`regedit`  
++ 定位到：`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\` 
++ 按照需求删除对应的项目：  
+下载：{088e3905-0323-4b02-9826-5d99428e115f}  
+图片：{24ad3ad4-a569-4530-98e1-ab02f9417aa8}  
+音乐：{3dfdf296-dbec-4fb4-81d1-6a3438bcf4de}  
+桌面：{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}  
+文档：{d3162b92-9365-467a-956b-92703aca08af}  
+视频：{f86fa3ab-70d2-4fc7-9c99-fcbf05467f3a}  
+3D对象：{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}  
++ 刷新或者重新打开资源管理器。  
+### GitHub代理配置
++ 找到个人目录下的.文件，用记事本打开，
+2+在文档尾部另起一行添加如下内容：
+>[http]  
+>&nbsp;&nbsp;&nbsp;&nbsp;proxy = socks5://127.0.0.1:1080   
+>[https]  
+>&nbsp;&nbsp;&nbsp;&nbsp;proxy = socks5://127.0.0.1:1080  
 
 ### 未完待续。。。 
