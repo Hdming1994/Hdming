@@ -28,7 +28,7 @@
 ### 问题3：Office365与Visio的共存
 即点即用版的Office365与VOL版的Visio无法共存，解决方法如下：
 + 下载最新版[Office部署工具](https://www.microsoft.com/en-us/download/details.aspx?id=49117)
-+ 运行释放office部署工具，进入其目录，新建文件`configuration.xml`
++ **运行释放**office部署工具，进入其目录，新建文件`configuration.xml`
 + 编辑`configuration.xml`：  
 ```
   <Configuration>
@@ -49,7 +49,7 @@
 ### 同时部署安装Office2019、Project、Visio
 使用微软ODT（Office部署工具）和OCT（Office定制工具）可以一次性部署和激活Office2019、Project、Visio，非常方便。
 + 下载最新版[ODT工具](https://www.microsoft.com/en-us/download/details.aspx?id=49117)
-+ 运行释放Office部署工具到指定目录
++ **运行释放**Office部署工具到指定目录
 + 使用在线的[OCT工具](https://config.office.com/deploymentsettings)选择需要的选项，导出成一个`configuration.xml`文件，保存到office部署工具的安装目录
 + 使用**CMD管理员身份**进入前面的目录
 + 执行`setup.exe /download configuration.xml`
