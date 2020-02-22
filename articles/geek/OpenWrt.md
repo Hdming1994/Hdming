@@ -1,7 +1,7 @@
 [返回目录](../../catalogue.md)  
 ## OpenWrt折腾记
 ### OpenWrt是什么
->OpenWrt是适合于嵌入式设备的一个Linux发行版。 相对原厂固件而言，OpenWrt不是一个单一、静态的固件，而是提供了一个可添加软件包的可写的文件系统。对于开发者来说，OpenWrt是一个框架，开发者不必麻烦地构建整个固件就能得到想要的应用程序；对于用户来说，这意味着完全定制的能力，与以往不同的方式使用设备，OPKG包含超过3500个软件。 OpenWrt默认使用LuCI作为web交互界面。--来自[维基百科](https://zh.wikipedia.org/zh-cn/OpenWrt)
+>OpenWrt是适合于嵌入式设备的一个Linux发行版。 相对原厂固件而言，OpenWrt不是一个单一、静态的固件，而是提供了一个可添加软件包的可写的文件系统。对于开发者来说，OpenWrt是一个框架，开发者不必麻烦地构建整个固件就能得到想要的应用程序；对于用户来说，这意味着完全定制的能力，与以往不同的方式使用设备，OPKG包含超过3500个软件。 OpenWrt默认使用LuCI作为web交互界面。——来自[维基百科](https://zh.wikipedia.org/zh-cn/OpenWrt)
 
 &nbsp;&nbsp;对于普通消费者来说，OpenWrt就是一种可以自行安装软件的路由操作系统（通常不用于交换机）。
 ### OpenWrt能用在那些设备上
