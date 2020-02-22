@@ -1,6 +1,4 @@
-<link rel="bookmark"  type="image/x-icon"  href="favicon.ico"/>
-<link rel="shortcut icon" href="favicon.ico">
-
+<!-- 这是目录文件 -->
 ## <font size="5"><strong>目  录</strong></font>
 <font size="5"><strong>Geek Time</strong></font>
 
