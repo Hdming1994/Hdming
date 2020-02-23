@@ -1,5 +1,5 @@
 <!-- 这是目录文件 -->
-## <font size="5"><strong>[目 录](catalogue.md)</strong></font>
+## [目 录](catalogue.md)
 
 <strong><font size="5" color="0088CC">Geek Time</font></strong>
 
