@@ -12,8 +12,8 @@
 4. 虚拟机：VM，Esxi，Pve，VisualBox等  
 
 ### 在标准X86_64机上安装OpenWrt
-&nbsp;&nbsp;在X86_64机上安装OpenWrt有两种方式，一种是安装到U盘中，另一种是安装到硬盘介质中。安装到U盘中方便灵活，不占用硬盘，但是启动和写入会变慢；安装到硬盘中要更繁琐，难以更换系统，不方便折腾。推荐安装到硬盘中，U盘长时间加电，可能会坏，而且旧二手小容量固态硬盘也不贵。  
-&nbsp;&nbsp; OpenWrt系统所需要的硬盘空间通常不超过1GB。内存通常512MB即可，功能强大，服务齐全1GB够用，特殊情况根据需要来定。CPU性能要求：以J1900作为低端，i5 4200U作为中端，i7 7200U以上算作高端。  
+&nbsp;&nbsp;在X86_64机上安装OpenWrt有两种方式，一种是安装到U盘中，另一种是安装到硬盘介质中。安装到U盘中方便灵活，不占用硬盘，但是启动和写入相对较慢；安装到硬盘中要更繁琐，难以更换系统，不方便折腾。推荐安装到硬盘中，U盘长时间加电，可能会出现故障，而且旧二手小容量固态硬盘也不贵。  
+&nbsp;&nbsp; OpenWrt系统所需要的硬盘空间通常不超过1GB。内存通常512MB即可，功能强大软件齐全的版本1GB够用，特殊情况根据需要来定。CPU性能要求：以J1900作为低端，i5 4200U作为中端，i7 7200U以上算作高端。  
 安装步骤：
 1. 下载获取安装文件*.img。可以直接使用大神编译好的（[Esir的Google Drive](https://drive.google.com/drive/folders/1eyIxVfyzO4nyzaT1sSr6xWf50_5YJN7g)），也可以使用官方原版（[openwrt.org](https://openwrt.org/)），还可自己通过源码编译（推荐[coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)）。推荐使用Esir编译好的精品小包固件。Esir的固件也是**coolsnowwolf/lede**的源码编译的。精品小包包含一些常用的工具，此外还有高大全版。  
 下载的到的文件为:**openwrt-spp-v2.1[2020]-x86-64-combined-squashfs.img.gz**
