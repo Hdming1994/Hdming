@@ -19,3 +19,19 @@
 #### [ICESat/GLAS 高程数据的下载和提取](articles/study/GlasExtract.md)
 #### [PCA主成分变换](articles/study/PCA.md)
 
+<html>
+    <table style="margin-left: auto; margin-right: auto;">
+        <tr>
+            <td>
+                <!--左侧内容-->
+                <a href="articles/study/StudyingWebsites.md">常用科研相关网址</a>
+            </td>
+            <td>
+                <!--右侧内容-->
+                <a href="articles/study/StudyingWebsites.md">常用科研相关网址</a><br>
+                <a href="articles/study/StudyingWebsites.md">常用科研相关网址</a>
+            </td>
+        </tr>
+    </table>
+</html>
+
