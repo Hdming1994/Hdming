@@ -1,13 +1,15 @@
 [返回目录](../../catalogue.md)
-## 如何利用Github Pages建一个网站
+# 建立一个简单的静态网站
+## 一 、如何利用Github Pages建一个网站
 ### 1.建立Github Pages仓库
 
 ### 2.CNAME域名解析
-+ 解析到github，CNAME
++ 解析到github，CNAME  
+
 ### 3.CDN静态加速
 + CloudFlare静态加速
 
-## VPS建站
+## 二 、VPS建站
 ### 1.购买VPS
 + 云空间
 + 轻量云
