@@ -10,7 +10,7 @@
 +  创建~/.vim文件夹
 
 ### 安装自己想要的插件
-+ 在~/vimfiles/vimrc文件中写入下面的代码。（这里安装了gruvbox和nerdtree两个插件）
++ 在~/vimfiles/vimrc文件中写入下面的代码。（这里安装了gruvbox和nerdtree两个插件）  
 ```
 " Specify a directory for plugins
 " - For Neovim: stdpath('data') . '/plugged'
@@ -22,12 +22,12 @@ Plug 'scrooloose/nerdtree'
 
 " Initialize plugin system
 call plug#end() "插件管理结束
-```
+```  
 + 在vim中执行命令`:PlugInstall`,需要全局代理
 + 安装其他插件就在call 和end之间添加对应的语句，然后再执行`:PlugInstall`
 
 ### 在vimrc文件添加以下内容
-这些代码分别为了解决特定的问题，或者添加某些功能
+这些代码分别为了解决特定的问题，或者添加某些功能  
 ```
 "Gvim中文菜单乱码解决方案#############################
 "设置文件编码格式
@@ -72,4 +72,4 @@ set guioptions-=r  "去除右滚动条
 
 colorscheme gruvbox "设定主题
 set background=dark "暗黑模式主题
-```
+```  
