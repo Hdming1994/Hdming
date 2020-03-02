@@ -16,8 +16,10 @@
 " - For Neovim: stdpath('data') . '/plugged'
 " - Avoid using standard Vim directory names like 'plugin'
 call plug#begin('~/.vim/plugged')"插件管理开始，确保使用的是单引号
+
 Plug 'morhetz/gruvbox'
 Plug 'scrooloose/nerdtree'
+
 " Initialize plugin system
 call plug#end() "插件管理结束
 ```  
@@ -43,32 +45,23 @@ source $VIMRUNTIME/delmenu.vim
 source $VIMRUNTIME/menu.vim
 "解决consle提示信息输出乱码
 language messages zh_CN.utf-8
-
-
 "快捷键映射###################################
 map <C-v> "+gP " Ctrl-V 
 map <C-c> "+y  " CTRL-C 
-
-
 "NerdTree设置#################################
 autocmd VimEnter * NERDTree
 map <F3> :NERDTreeToggle<CR> "设定插件的快捷键
 let NERDTreeQuitOnOpen=1 "自动退出插件
 autocmd BufEnter * if 0 == len(filter(range(1, winnr('$')), 'empty(getbufvar(winbufnr(v:val), "&bt"))')) | qa! | endif "自动退出插件
-
-
 "其他设置#####################################
 set guifont=Microsoft_YaHei_Mono:h11 "字体&大小
 set lines=35 columns=140 "更改高度和宽度
-
 set number  "显示行号
 set backspace=2 "设置退格键
-
 set guioptions-=T  "去除工具栏
 set guioptions-=m  "去除菜单栏
 set guioptions-=L  "去除左滚动条
 set guioptions-=r  "去除右滚动条
-
 colorscheme gruvbox "设定主题
 set background=dark "暗黑模式主题
 ```  
