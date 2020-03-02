@@ -12,6 +12,7 @@
 #### [6. Python炼丹大法](articles/geek/PythonCook.md)
 #### [7. 如何高速下载百度网盘文件](articles/geek/BaiduPanDownload.md)
 #### [8. OpenWrt折腾记](articles/geek/OpenWrt.md) 
+#### [9.GVIM使用小记](articles/geek/VIM.md)
 -------
 <strong><font size="5" color="0088CC">Study Time</font></strong>
 
