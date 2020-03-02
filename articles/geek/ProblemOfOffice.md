@@ -30,6 +30,7 @@
 + 下载最新版[Office部署工具](https://www.microsoft.com/en-us/download/details.aspx?id=49117)
 + **运行释放**office部署工具，进入其目录，新建文件`configuration.xml`
 + 编辑`configuration.xml`：  
+
 ```
   <Configuration>
     <Add OfficeClientEdition="64" >
@@ -39,6 +40,7 @@
     </Add>  
   </Configuration>
 ```
+
 + 使用**CMD管理员身份**进入前面的目录
 + 执行`setup.exe /download configuration.xml`
 + 执行`setup.exe /configure configuration.xml`  
