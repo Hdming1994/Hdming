@@ -47,14 +47,20 @@ source $VIMRUNTIME/delmenu.vim
 source $VIMRUNTIME/menu.vim
 "解决consle提示信息输出乱码
 language messages zh_CN.utf-8
+
+
 "快捷键映射###################################
 map <C-v> "+gP " Ctrl-V 
 map <C-c> "+y  " CTRL-C 
+
+
 "NerdTree设置#################################
 autocmd VimEnter * NERDTree
 map <F3> :NERDTreeToggle<CR> "设定插件的快捷键
 let NERDTreeQuitOnOpen=1 "自动退出插件
 autocmd BufEnter * if 0 == len(filter(range(1, winnr('$')), 'empty(getbufvar(winbufnr(v:val), "&bt"))')) | qa! | endif "自动退出插件
+
+
 "其他设置#####################################
 set guifont=Microsoft_YaHei_Mono:h11 "字体&大小
 set lines=35 columns=140 "更改高度和宽度
