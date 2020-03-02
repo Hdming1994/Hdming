@@ -1,11 +1,14 @@
 [返回目录](../../catalogue.md)  
 ## GVIM使用小记
+
 ### 安装GVIM
 + 下载GVIM安装即可，一切设置默认。  
 个人目录中会出现一个vimfiles文件夹，这是GVIM的设置和插件目录。
+
 ### 安装vim-plug插件管理器
 + 下载vim-plug插件本身放到~/vimfiles/autoload文件夹（可能需要自行创建）
 +  创建~/.vim文件夹
+
 ### 安装自己想要的插件
 + 在~/vimfiles/vimrc文件中写入下面的代码。（这里安装了gruvbox和nerdtree两个插件）
 ```
@@ -69,5 +72,4 @@ set guioptions-=r  "去除右滚动条
 
 colorscheme gruvbox "设定主题
 set background=dark "暗黑模式主题
-
 ```
