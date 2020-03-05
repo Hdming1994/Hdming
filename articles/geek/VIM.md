@@ -55,21 +55,41 @@ map <C-c> "+y  " CTRL-C
 
 
 "NerdTree设置#################################
-autocmd VimEnter * NERDTree
-map <F3> :NERDTreeToggle<CR> "设定插件的快捷键
+"autocmd VimEnter * NERDTree  "自动打开NerdTree
+map <F3> :NERDTreeToggle<CR>   "设定插件的快捷键
 let NERDTreeQuitOnOpen=1 "自动退出插件
 autocmd BufEnter * if 0 == len(filter(range(1, winnr('$')), 'empty(getbufvar(winbufnr(v:val), "&bt"))')) | qa! | endif "自动退出插件
+"设置树的显示图标
+let g:NERDTreeDirArrowExpandable = '+'
+let g:NERDTreeDirArrowCollapsible = '-'
+ 
+
+"设置自动缩进和tab键功能
+set autoindent      "开启自动缩进
+set smartindent     "智能选择缩进
+set smarttab  
+set tabstop=4  
+set shiftwidth=4  
+set expandtab 
 
 
 "其他设置#####################################
-set guifont=Microsoft_YaHei_Mono:h11 "字体&大小
+set guifont=Microsoft_YaHei_Mono:h12 "字体&大小
 set lines=35 columns=140 "更改高度和宽度
-set number  "显示行号
-set backspace=2 "设置退格键
-set guioptions-=T  "去除工具栏
-set guioptions-=m  "去除菜单栏
-set guioptions-=L  "去除左滚动条
-set guioptions-=r  "去除右滚动条
+
+set number          "显示行号
+set backspace=2     "设置退格键
+set ruler           "底部的行号等显示
+set showmatch       "自动匹配标点,只是显示而不是自动补全
+
+set autowrite       "自动保存
+
+set guioptions-=T   "去除工具栏
+set guioptions-=m   "去除菜单栏
+set guioptions-=L   "去除左滚动条
+set guioptions-=r   "去除右滚动条
+
 colorscheme gruvbox "设定主题
 set background=dark "暗黑模式主题
+set laststatus=2    "状态栏 
 ```  
