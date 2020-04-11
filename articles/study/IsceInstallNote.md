@@ -1,4 +1,4 @@
-[返回目录](../../catalogue.md)  
+[返回目录](/catalogue.md)
 ## ISCE安装指南
 ### 预备
 + ISCE版本：2.3.2

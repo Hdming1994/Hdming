@@ -1,4 +1,4 @@
-[返回目录](../../catalogue.md)  
+[返回目录](/catalogue.md)  
 ## GVIM使用小记
 
 ### 安装GVIM
