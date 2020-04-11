@@ -1,4 +1,4 @@
-[返回目录](/catalogue.md)
+[返回目录](../../catalogue.md)
 # 建立一个简单的静态网站
 ## 一 、利用Github Pages建一个网站
 ### 1.建立Github Pages仓库

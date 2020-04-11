@@ -1,4 +1,4 @@
-[返回目录](/catalogue.md)
+[返回目录](../../catalogue.md)
 ## 一些关于Office的小问题：　
 
 ### 问题1：Word公式显示错误
