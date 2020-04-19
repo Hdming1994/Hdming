@@ -70,5 +70,20 @@
 + 右键单击Options文件夹，新建一个`DWORD值`,并命名为`ExportBitmapResolution`  
 + 右键修改`ExportBitmapResolution`，选择十进制输入`300`,确定即可。
 + 注意：DPI值可以大于300，但不要超过1000，且2010及早期版本只支持到307DPI。
-+ 参考：[How to change the export resolution of a PowerPoint slide](https://docs.microsoft.com/en-us/office/troubleshoot/powerpoint/change-export-slide-resolution)
++ 参考：[How to change the export resolution of a PowerPoint slide](https://docs.microsoft.com/en-us/office/troubleshoot/powerpoint/change-export-slide-resolution)  
 
+### KMS激活Office365、Office2019
+
++ 使用CMD的KMS激活
+  ```
+  cd /d %ProgramFiles%\Microsoft Office\Office16 
+  cd /d %ProgramFiles(x86)%\Microsoft Office\Office16 
+  for /f %x in ('dir /b ..\root\Licenses16\ProPlus2019VL*.xrm-ms') do 
+  cscript ospp.vbs /inslic:"..\root\Licenses16\%x" 
+  cscript ospp.vbs /setprt:1688 
+  cscript ospp.vbs /unpkey:6MWKP >nul 
+  cscript ospp.vbs /inpkey:NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP 
+  cscript ospp.vbs /sethst:kms8.msguides.com cscript ospp.vbs /act
+  ```
+
++ 使用OfficeToolPlus，部署和激活都很方便，只需有激活码和KMS的网址。
