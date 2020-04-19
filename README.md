@@ -1,3 +1,4 @@
+<!-- 添加网站图标、收藏夹图标 -->
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <link rel="bookmark"      href="favicon.ico" type="image/x-icon"/>
 <link rel="icon"          href="favicon.ico" type="image/x-icon"/>
