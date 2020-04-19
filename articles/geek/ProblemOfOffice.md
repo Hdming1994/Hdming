@@ -52,8 +52,8 @@
 + Tips:OCT在线配置可以配置Office365、2016及2019版的Office、Project、Visio等软件，并且Office365和2019版Office等软件**只能安装在Windows10操作系统上**，2016版没有限制。  
 
 2. 使用OfficeToolPlus可以下载部署和激活office各个版本，只需提供对应激活码和KMS的网址。
-   ![](/images/OTP-1.png)
-   ![](/images/OTP-2.png)
+   ![](/images/OTP-1.webp)
+   ![](/images/OTP-2.webp)
 + 可用的KMS地址有：kms8.msguides.com 
 + 激活码可搜索去找，与软件和版本对应即可。   
  
