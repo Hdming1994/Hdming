@@ -6,7 +6,7 @@
 个人目录中会出现一个vimfiles文件夹，这是GVIM的设置和插件目录。
 
 ### 安装vim-plug插件管理器
-+ 下载vim-plug插件本身放到~/vimfiles/autoload文件夹（可能需要自行创建）
++ 下载[vim-plug](https://github.com/junegunn/vim-plug)插件,将`*.vim`文件放到~/vimfiles/autoload文件夹（可能需要自行创建）
 +  创建~/.vim文件夹
 
 ### 安装自己想要的插件
