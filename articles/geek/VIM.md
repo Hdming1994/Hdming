@@ -25,7 +25,7 @@ Plug 'scrooloose/nerdtree'
 call plug#end() "插件管理结束
 ```  
 
-+ 在vim中执行命令`:PlugInstall`,需要全局代理
++ 在vim中执行命令`:PlugInstall`,需要**全局代理**
 + 安装其他插件就在call 和end之间添加对应的语句，然后再执行`:PlugInstall`
 
 ### 在vimrc文件添加以下内容
