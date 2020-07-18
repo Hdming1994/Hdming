@@ -20,6 +20,7 @@ call plug#begin('~/.vim/plugged')"插件管理开始，确保使用的是单引�
 
 Plug 'morhetz/gruvbox'
 Plug 'scrooloose/nerdtree'
+Plug 'Yggdroot/indentLine' "对齐线
 
 " Initialize plugin system
 call plug#end() "插件管理结束
