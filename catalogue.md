@@ -24,4 +24,4 @@
 ##### [4. ICESat/GLAS 高程数据的下载和提取](articles/study/GlasExtract.md)
 ##### [5. PCA主成分变换](articles/study/PCA.md)
 ##### [6. 最小二乘的一些用途](articles/study/LSAlgrithm.md)
-##### [7. # 使用VS编译gdal](articles/study/GDAL-make.md)
+##### [7. 使用VS编译gdal](articles/study/GDAL-make.md)
