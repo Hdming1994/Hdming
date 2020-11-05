@@ -11,8 +11,9 @@
 ##### [5. 建立一个简单的静态网站](articles/geek/FoundWebsite.md)  
 ##### [6. Python炼丹大法](articles/geek/PythonCook.md)
 ##### [7. OpenWrt折腾记](articles/geek/OpenWrt.md) 
-##### [8.GVIM使用小记](articles/geek/VIM.md)
-##### [9.漫画-Linux Kernel](articles/geek/LinuxKernel.md)
+##### [8. GVIM使用小记](articles/geek/VIM.md)
+##### [9. C++调用Fortran DLL程序](articles/geek/FortranDLL.md)
+##### [10.漫画-Linux Kernel](articles/geek/LinuxKernel.md)
 -------
 <strong><font size="5" color="0088CC">Study Time</font></strong>
 
@@ -22,3 +23,5 @@
 ##### [3. InSAR技术生成DEM与DEM融合](articles/study/MyPapers.md)
 ##### [4. ICESat/GLAS 高程数据的下载和提取](articles/study/GlasExtract.md)
 ##### [5. PCA主成分变换](articles/study/PCA.md)
+##### [6. 最小二乘的一些用途](articles/study/LSAlgrithm.md)
+##### [7. # 使用VS编译gdal](articles/study/GDAL-make.md)

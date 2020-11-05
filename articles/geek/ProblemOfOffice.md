@@ -71,3 +71,8 @@
   cscript ospp.vbs /inpkey:NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP 
   cscript ospp.vbs /sethst:kms8.msguides.com cscript ospp.vbs /act
   ```
+
+### Office2013保存很慢的问题
++ 文件->选项->高级->保存  
+取消勾选“允许后台保存”选项，这样保存就很快了。  
+需要注意的是，尽量随手保存，以防内容丢失！！！
