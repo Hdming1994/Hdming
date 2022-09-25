@@ -19,12 +19,12 @@
 
 #### 4.分区和安装 
 + 从U盘启动后，按照提示到达分区界面，按下`Shift+F10`打开命令工具，输入以下命令：  
-`diskaprt`(打开`diskpart`工具)  
-`list disk`(列出所有磁盘)  
-`select disk 0`（不一定是第0个磁盘，根据情况选择）  
-`create partition efi size=300`（创建一个efi分区，大小为300M）  
-`create partition msr size=200`（创建一个msr分区，大小为200M）  
-`create partition primary size=102400`（创建一个主分区大小100G，可自行调整；）  
+  `diskaprt`(打开`diskpart`工具)  
+  `list disk`(列出所有磁盘)  
+  `select disk 0`（不一定是第0个磁盘，根据情况选择）  
+  `create partition efi size=300`（创建一个efi分区，大小为300M）  
+  `create partition msr size=200`（创建一个msr分区，大小为200M）  
+  `create partition primary size=102400`（创建一个主分区大小100G，可自行调整；）  
   + 在创建分区时需要磁盘上有足够的**未分配空间**，可以在安装程序的分区界面来操作。
   + 其他分区根据需要进行划分，建议可以等安装完系统后再进行。
   + 创建分区时，如果不说明`"size=xxx"`,那么将使用所有的剩余空间  
@@ -42,7 +42,7 @@
     slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX 
     slmgr /skms kms8.msguides.com 
     slmgr /ato
-    ```  
+    ```
   + 其中的`kms8.msguides.com`是kms服务器的地址。
   + 若不想使用KMS方式激活系统，可以先登录微软账户,再使用老毛子的HWID工具获取win10激活，可以实现激活系统并绑定到微软账号上进行白嫖。
   
@@ -55,4 +55,4 @@
    yum install ntfs-3g
    grub2-mkconfig -o /boot/grub2/grub.cf
    ```
-4. 如果efi引导情况下如果不能修复，可以考虑在efi分区中新建引导
+4. 如果efi引导情况下如果不能修复，可以考虑在efi分区中新建引导。或者使用Windows启动盘来修复。
