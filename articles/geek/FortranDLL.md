@@ -43,3 +43,8 @@ int getSolidTideCorrect(double T,double L,double B,double &h_correct)
 C:\Program Files (x86)\Intel\Composer XE 2013 SP1\redist\ia32\compiler
 C:\Program Files (x86)\Intel\Composer XE 2013 SP1\redist\intel64\compiler\
 ```
+
+# Linux下调用Fortran
+### 将Fortran程序编译成so文件
+### 在C++程序中调用so文件
++ 注意函数名需要小写

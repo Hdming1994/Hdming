@@ -1,5 +1,6 @@
 [返回目录](../../catalogue.md)
-## Windows安装
+[toc]
+# Windows安装
 
 ### Windows 10安装
 #### 1.下载ISO镜像文件  
@@ -45,3 +46,13 @@
   + 其中的`kms8.msguides.com`是kms服务器的地址。
   + 若不想使用KMS方式激活系统，可以先登录微软账户,再使用老毛子的HWID工具获取win10激活，可以实现激活系统并绑定到微软账号上进行白嫖。
   
+## windows10与centos双系统
+1. 正常安装windows10
+2. 正常安装centos
+3. 修复Windows10的引导
+   ``` 
+   yum updae
+   yum install ntfs-3g
+   grub2-mkconfig -o /boot/grub2/grub.cf
+   ```
+4. 如果efi引导情况下如果不能修复，可以考虑在efi分区中新建引导
